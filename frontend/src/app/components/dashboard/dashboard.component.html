@@ -1,18 +1,61 @@
 <app-navbar></app-navbar>
-<div class="container mt-2 text-center">
-  <h2>Productos</h2>
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">Nombre</th>
-        <th scope="col">Descripción</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let item of listProducts">
-          <td>{{ item.name }}</td>
-          <td>{{ item.description }}</td>
-        </tr>
-    </tbody>
-  </table>
+
+<div class="background">
+  <div class="overlay d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-7 mx-auto">
+          <div class="card text-center">
+            <div class="card-header bg-secondary">Hola Usuario!</div>
+            <div class="card-body">
+              <img src="../../../assets/img/user.png" alt="User Avatar" class="avatar">
+              <h5 class="card-title">Nombre de Usuario</h5>
+              <p class="card-text">Descripción del usuario</p>
+              <div class="d-flex flex-column flex-sm-row justify-content-center">
+              <a href="#" class="btn btn-sm btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-sm btn-primary mx-3">Go somewhere</a>
+              <a href="#" class="btn btn-sm btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+<!-- <div class="container wrapper">
+    <div class="profile">
+        <div class="overlay">
+            <div class="row text-center half-row">
+              <div class="col align-self-center">
+                <h1 class="text-danger">User Name</h1>
+                <h5 class="text-bg-light mx-5">Welcome back</h5>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-3 text-center">
+              <div class="col">
+                <button type="button" class="btn btn-secondary btn-sm">Edit Profile</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-secondary btn-sm">New Collection</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-secondary btn-sm">My Collection</button>
+              </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+<!-- {{ user.name }} -->

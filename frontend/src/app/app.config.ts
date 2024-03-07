@@ -18,7 +18,7 @@ export const appConfig: ApplicationConfig = {
     provideAnimations(), // required animations providers
     provideToastr({
       timeOut: 4000,
-      positionClass: 'toast-bottom-right',
+      positionClass: 'toast-top-center',
       preventDuplicates: true,
     }), // Toastr providers
     //{ provide: HTTP_INTERCEPTORS, useClass: AddTokenInterceptor, multi: true }

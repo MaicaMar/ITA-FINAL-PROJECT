@@ -1,0 +1,106 @@
+.wrapper {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+h1 {
+  font-weight: 600;
+  font-size: 9.5vw;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 3vw;
+  letter-spacing: 0.04em;
+}
+
+h6 {
+  font-size: 2vw;
+  font-weight: 300;
+  font-style: italic;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ========================
+TIPPING EFFECT https://codepen.io/geoffgraham/pen/jrWwWM
+======================== */
+
+/* VINYL-RACK STYLES */
+.vinyl-rack p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 10vw;
+  overflow: hidden;
+  /* border: 0 solid #B58901; */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: -0.12em;
+  animation: 
+    typing 1s steps(36, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+  
+/* The typewriter cursor effect 
+@keyframes blink-caret {
+  from, to { border-color: #fff }
+  50% { border-color: #fff }
+}*/
+
+.color1 {
+  color:darkmagenta;
+}
+.color2 {
+  color: darkseagreen;
+}
+.color3 {
+  color:brown;
+}
+.color4 {
+  color: aqua;
+}
+.color5 {
+  color: #B58901;
+}
+.color6 {
+  color: cadetblue;
+}
+.color7 {
+  color:darkred;
+}
+.color8 {
+  color:hotpink;
+}
+.color9 {
+  color:darkorange;
+}
+.color10 {
+  color:dimgrey;
+}
+.color11 {
+  color:deepskyblue;
+}
+.color12 {
+  color:gold;
+}
+.color13 {
+  color:lightgreen;
+}
+.color14 {
+  color:crimson;
+}
+.color15 {
+  color:coral;
+}

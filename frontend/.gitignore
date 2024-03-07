@@ -34,6 +34,8 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+NOTAS.txt
+css-flexbox-poster.png
 
 # System files
 .DS_Store

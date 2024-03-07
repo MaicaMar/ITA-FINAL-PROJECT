@@ -22,6 +22,7 @@ import { ErrorService } from '../../services/error.service';
 })
 export class SignInComponent {
   username: string = '';
+  email: string = '';
   password: string = '';
   confirmPassword: string = '';
   loading: boolean = false;
@@ -37,7 +38,7 @@ export class SignInComponent {
     addUser() {
 
       // Validamos que el usuario ingrese valores
-      if (this.username == '' || this.password == '' || this.confirmPassword == '') {
+      if (this.username == '' || this.email == '' || this.password == '' || this.confirmPassword == '') {
         this.toastr.error('Todos los campos son obligatorios', 'Error');
         return;
       }
@@ -51,6 +52,7 @@ export class SignInComponent {
       // Creamos el objeto
       const user: User = {
         username: this.username,
+        email: this.email,
         password: this.password
       }
 

@@ -43,6 +43,7 @@ export class LoginComponent {
     // Creamos el objeto/body
     const user: User = {
       username: this.username,
+      email: '', // Email requerido por interface pero no lo usamos en el login
       password: this.password
     }
 

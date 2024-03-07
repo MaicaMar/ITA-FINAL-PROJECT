@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 3vw;  
+}
+
+.color2 {
+    color: darkseagreen;
+  }
+  .color3 {
+    color:brown;
+  }
+  .color4 {
+    color: aqua;
+  }
+  .color5 {
+    color: #B58901;
+  }
+  .color6 {
+    color: cadetblue;
+  }
+  .color12 {
+    color:gold;
+  }
+  .color13 {
+    color:lightgreen;
+  }
+  .color14 {
+    color:crimson;
+  }
+  .color15 {
+    color:coral;
+  }

@@ -1,24 +1,28 @@
 <div class="wrapper">
   @if (!loading) {
     <div class="body">
-      <img class="logo" src="../../../assets/img/login.png" alt="img-login">
-      <h3 class="mb-4">Registrar Usuario</h3>
-      <div class="form-floating mb-3">
-        <input type="text" [(ngModel)]="username" class="form-control" placeholder="Ingrese usuario">
-        <label>Usuario</label>
+      <img class="logo" src="../../../assets/img/login-mustard.png" alt="img-login">
+      <h3 class="mb-4 mt-2">User Register</h3>
+      <div class="form-floating mb-3 shadow-lg">
+        <input type="text" [(ngModel)]="username" class="form-control rounded-3" placeholder="Username">
+        <label>Username</label>
       </div>
-      <div class="form-floating mb-3">
-        <input type="password" [(ngModel)]="password" class="form-control" placeholder="Ingrese password">
+      <div class="form-floating mb-3 shadow-lg">
+        <input type="email" [(ngModel)]="email" class="form-control rounded-3" placeholder="Email address">
+        <label>Email</label>
+      </div>
+      <div class="form-floating mb-3 shadow-lg">
+        <input type="password" [(ngModel)]="password" class="form-control rounded-3" placeholder="Enter Password">
         <label>Password</label>
       </div>
-      <div class="form-floating mb-3">
-        <input type="password" [(ngModel)]="confirmPassword" class="form-control" placeholder="Ingrese password de nuevo">
-        <label>Repetir Password</label>
+      <div class="form-floating mb-3 shadow-lg">
+        <input type="password" [(ngModel)]="confirmPassword" class="form-control rounded-3" placeholder="Repeat Password">
+        <label>Repeat Password</label>
       </div>
-      <div class="d-grid gap-2 mb-3">
-        <button type="button" (click)="addUser()" class="btn btn-primary btn-lg">Aceptar</button>
+      <div class="d-grid gap-2 mb-3 shadow-lg">
+        <button type="button" (click)="addUser()" class="btn btn-primary btn-lg shadow-lg">Submit</button>
       </div>
-      <a routerLink="/login">Volver</a>
+      <a routerLink="/login">Back</a>
     </div>
   }
   @if (loading) {

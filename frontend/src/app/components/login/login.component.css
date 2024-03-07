@@ -1,1 +1,28 @@
+.wrapper {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
+.body {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    height: 130px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 33px;
+}
+
+p {
+    font-size: 14px;
+}
